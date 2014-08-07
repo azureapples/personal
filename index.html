@@ -1,0 +1,131 @@
+<!DOCTYPE html> <!-- html tab h1 - header tab  img tab
+# could put relative(putting image locally from your website) or direct path (direct link to it) for src
+#hr stands for horizontal ruler - see horizontal line
+
+ul- unordered list
+li - list item
+
+
+css stands for cascading style sheets
+
+
+whatever between head section not visible to outside world
+
+connet css to html under href
+create another relative path
+
+type selectors - directly referencing stuff
+class selectors give whatever img you want to customize give it a name and call it
+"." stands for class
+reference that name in css
+thats how you would manipulate each individual image, by giving them classes 
+
+command-? to comment out
+div - stands for division
+gives ability to manipulate each section individually - div class
+
+use hexadecimals for colors- usually 6 numbers
+rgba - can actually specify transparency unlike hexadicimal
+colourco.de
+
+margins creates spacing outside
+padding creates spacing inside
+margin-top: 50px
+padding-top..etc
+
+body is a type selector
+resume is a class selector since actually gave name to it
+
+inline can start embedding boxes to each other
+span is an inline tag
+
+iconfinder.com
+
+
+-->
+
+
+<html>
+
+<head>
+	<title> Sera's Website </title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+</head>
+	<body>
+		<div class="resume">
+
+		<div class="profile">
+		<img src="images/undersea.png"
+		class="avatar">
+
+		<h1> Aloha World! My name is Sera~ :D</h1>
+
+		</div>
+		<hr>
+
+		<!-- Education -->
+
+		<div>
+
+		<h2>Education</h2>
+
+			<ul>
+				<li>University of Toronto</li>
+			</ul>
+
+		</div>
+
+		<!-- Education -->
+
+		<!-- Hobbies -->
+
+		<div class="hobbies">
+
+		<h2>Hobbies</h2>
+
+			<ul>
+				<li>Reading</li>
+				<li>Games</li>
+				<li>Biking</li>
+				<li>Learning new things!</li>
+
+			</ul>
+		</div>
+
+		<!-- Hobbies -->
+
+		<!-- Contact -->
+		<div>
+
+			<h3>Contact</h3>
+				<ul>
+
+					<li>xoxo</li>
+
+				</ul>
+
+		</div>
+
+		<!-- Contact -->
+		<hr>
+
+		<footer>
+			<a href="http://www.google.ca" target="_blank"> <!-- target blank gets link to open in new tab -->
+				<img src="images/fb.png" class="social-media">
+
+				<a href="http://www.google.ca">
+				<img src="images/twit.png" class="social-media">
+
+				<a href="http://www.google.ca">
+				<img src="images/hearts.png" class="social-media">
+
+			<p>
+				Made with <span class="heart">&hearts;</span> at Brainstation <3 </p>
+
+		</footer>
+
+
+	</div>
+	</body>
+</html>
